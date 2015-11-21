@@ -1,0 +1,58 @@
+body {
+  background-color: #cceeff;
+}
+
+#top_image {
+  /*background-image: url("/img/bluesky.jpg");
+  background-size: cover;*/
+  background-color: #66ccff;
+}
+
+#tag_line {
+  color: #fff;
+  padding: 20px;
+  padding-top: 2em;
+}
+
+.panel-default > .panel-heading {
+  background-color: #007eff;
+  color: #ffffff;
+}
+
+.footer_line {
+  color: #aaa;
+  font-size: 1.4em;
+  font-weight: bold;
+}
+
+.copyright {
+  color: #aaa;
+  font-size: 0.9em;
+}
+
+.problem {
+  background-color: #ffe0b3;
+}
+
+.panels {
+  /*background-color: #ffffcc;*/
+}
+
+.large-text {
+  padding: 10px;
+  font-size: 1.7em;
+  color: #555;
+}
+
+.solution {
+  background-color: #b2ff99;
+}
+
+#footer {
+  background-color: #cceeff;
+}
+
+#footer ul {
+  padding: 0;
+  list-style-type:none;
+}
