@@ -25,31 +25,43 @@
     <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css" media="screen">
     <link rel="stylesheet" type="text/css" href="/css/font-awesome.min.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="css/clouds.css" media="screen">
     <link rel="stylesheet" type="text/css" href="/css/main.css" media="screen">
     <!-- end CSS -->
 
     <!-- Javascript -->
+    <script src="/js/jquery-1.11.3.min.js"></script>
     <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/smooth-scroll.js"></script>
+    <script src="/js/scrollhint.js"></script>
     <!-- end Javascript -->
   </head>
 
   <body>
     <!-- Logo Area -->
-    <div id="top_image">
+    <div id="clouds">
+      <br/>
+      <div class="cloud x1"></div>
       <div class="container">
-        <br/><br/><br/><br/><br/><br/>
         <img src="/img/logo_rev_1_white.svg" class="img-responsive"/>
         <div id="tag_line">
           Making the world a better place through environmental sustainability
         </div> <!-- tag_line -->
-      </div> <!-- container -->
-      <br/><br/><br/><br/><br/><br/><br/><br/><br/>
-    </div> <!-- top_image -->
-    <!-- end Logo Area -->
+      </div>
+      <div class="cloud x2"></div>
+      <div class="cloud x3"></div>
+      <div id="scrollhint">
+        <div class="btn btn-lg btn-default">
+          <a data-scroll href="#panels"><i class="fa fa-graduation-cap"> Learn More <i class="fa fa-arrow-down"></i></i></a>
+        </div>
+      </div>
+      <div class="cloud x4"></div>
+      <div class="cloud x5"></div>
+    </div> <!-- top_image -->    <!-- end Logo Area -->
 
 
     <!-- Info Panels -->
-    <div class="panels">
+    <div class="panels" id="panels">
       <div class="container">
         <br/><br/><br/><br/><br/><br/>
         <div class="col-md-4 text-center">
@@ -68,7 +80,7 @@
               <h3 class="panel-title">Technology First</h3>
             </div>
             <div class="panel-body">
-              We are a tech company first. We use advanced technology to help you make intelligent and <br/>well-informed   decisions about improving your sustainability.
+              We are a tech company first. We use advanced technology to help you make intelligent and <br/>well-informed   decisions about improving your sustainability.<br/><br/>
             </div> <!-- panel-body -->
           </div> <!-- panel -->
         </div> <!-- column -->
@@ -78,7 +90,7 @@
               <h3 class="panel-title">We Make It Fun</h3>
             </div>
             <div class="panel-body">
-              We drive change by making it fun and engaging. We've created an innovative way to get people interested and keep  them interested in sustainability and a greener future.
+              We drive change by making it fun and engaging. We've created an innovative way to get people interested and keep  them interested in sustainability and a greener future.<br/><br/>
             </div> <!-- panel-body -->
           </div> <!-- panel -->
         </div> <!-- column -->

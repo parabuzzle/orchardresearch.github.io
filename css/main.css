@@ -20,13 +20,13 @@ body {
 }
 
 .footer_line {
-  color: #aaa;
+  color: #999;
   font-size: 1.4em;
   font-weight: bold;
 }
 
 .copyright {
-  color: #aaa;
+  color: #999;
   font-size: 0.9em;
 }
 
@@ -35,7 +35,7 @@ body {
 }
 
 .panels {
-  /*background-color: #ffffcc;*/
+  background-color: #b2ff99;
 }
 
 .large-text {
@@ -55,4 +55,11 @@ body {
 #footer ul {
   padding: 0;
   list-style-type:none;
+}
+
+#scrollhint {
+  bottom:100px;
+  margin:auto;
+  width:100%;
+  text-align:center;
 }
